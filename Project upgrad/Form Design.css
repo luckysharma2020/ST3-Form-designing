@@ -1,0 +1,33 @@
+body{
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+    
+}
+hr{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+button{
+    align-content: center;
+    border-radius: 3%;
+    background-color:rgb(230, 154, 104);
+    width: 150px;
+    height: 39px;
+}
+input{
+    width: 300px;
+    height: 50px;
+}
+table{
+
+    height: 20%;
+    margin-top: 20px;
+    margin-left: 370px;
+}

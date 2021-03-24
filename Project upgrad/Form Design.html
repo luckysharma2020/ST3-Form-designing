@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link href='Form Design.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+    <form name="regform" onsubmit="return(formvalidate());">
+
+    <div class="container">
+
+        <h1>Details Form</h1> <hr> <br>
+        <table>
+            <tr>
+            <td>Name:</td> <td><input type="text" name="FNAME" placeholder="Enter Your Name" minlength="3"></td>
+            </tr>
+                
+            <tr>
+            <td>Mob No.:</td><td> <input type="text" name="NUM" placeholder="Enter Your Mobile Number" minlength="10" maxlength="10"></td>
+            </tr>
+
+            <tr>
+            <td> Id:</td> <td><input type="text" name="EMAIL" placeholder="Enter Your Email ID"></td>
+            </tr>
+        </table>
+        <button type="submit">SUBMIT</button>
+    </div>
+
+    <hr>
+</form>
+<script src="Form Design.js"></script>
+</body>
